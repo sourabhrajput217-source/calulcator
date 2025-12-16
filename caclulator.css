@@ -1,0 +1,38 @@
+body{background-color: lightslategray;}
+
+.calulator-form{
+    border: 2px solid white;
+    background-color: skyblue;
+
+    max-width: 350px;      /* good size */
+    padding: 20px;
+
+    margin: 11px auto;    /* container center */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* 👈 form content center */
+
+    border-radius: 10px;
+}
+
+.calulator-form form{
+    width: 100%;           /* form full width */
+    text-align: center;
+}
+
+.calulator-form input,
+.calulator-form select{
+    width: 90%;
+    padding: 8px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 60%;
+    padding: 10px;
+}
